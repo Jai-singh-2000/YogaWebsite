@@ -1,0 +1,467 @@
+/*Related with logo and nav*/
+.header{
+
+    background-image:url(wall.jpg);
+    height:520px;
+	background-size:cover;
+	background-position:center;
+	border-bottom:1px solid blue;
+    border-top:1px solid black;
+}
+
+html{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{position:relative;
+    background:rgb(250,247,228);
+    margin: 0px;
+}
+ 
+
+.logo{
+width: 120px;
+height: 50px;
+float:left;
+margin: 20px;
+border-radius:3px;
+}
+
+/* Middle section of header*/
+
+.hero{ width:100%;
+    margin-left:0 px;
+    margin-top:0px;
+}
+
+
+.heading{ color:black;
+    text-transform:uppercase;
+	font-size:70px;
+    margin-top:235px;
+    margin-right:auto;
+    margin-left: 30%;
+    margin-bottom:2%;
+}
+
+.one{
+    margin-left:36%;
+}
+
+
+.one, .two{border:1px solid white;
+    padding:10px 30px;
+    color:white;
+    text-decoration:none;
+    margin-right:5px;
+    font-size:12px;
+    text-transform:uppercase;
+    font-family:"roboto",sans-serif;
+    }
+    
+    
+        
+.one{
+   background-color:darkorange;
+}
+
+
+.two{
+    background-color:red;
+}
+    
+
+.two:hover{
+background-color:darkred;
+transition:all 0.2s ease-in;}
+
+
+
+/*for navigation buttons*/   
+
+
+.header nav span a{
+    list-style-type: none;
+}
+
+
+
+.header nav  a{
+    float: right;
+    margin-top:1%;
+}
+
+
+
+
+
+nav{position:fixed;
+width:100%;
+margin-top:20px;
+
+}
+
+
+
+
+
+.main-nav span a{
+    padding:5px 20px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    background:white;
+    color:darkorange;
+    font-size: 15px;
+    font-weight: lighter;
+    font-family:"roboto",sans-serif;
+    margin-right: 8px;
+    border-radius:4px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    transition:1s ease;
+}
+
+
+
+.main-nav span a:hover{
+    transition:all 1ms step-end;
+    transition-timing-function: cubic-bezier(0.6, 0.04, 0.98, 0.335);
+    background-color:darkorange;
+    color:white;
+    }
+
+
+
+
+/* 3 icons ka hai  */
+
+
+.icons {
+    border-radius: 200px;
+    text-align: center;
+}
+
+
+.icons span i{
+    font-size: 100px;
+    text-align: center;
+    border:0px solid violet;
+    border-radius:200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+
+
+
+
+
+/*Ab gallery section*/
+
+
+
+.gal td{
+    text-align: center;
+    border: 0px solid black;
+    padding-top:4%;
+    padding-bottom: 4%;
+}
+
+
+
+#links {color:black; 	 
+    padding:3px 4px;
+    text-decoration:none;
+    font-size:25px;
+    border: 1px solid gray;
+    border-radius:18px;
+    overflow:hidden;
+    font-family:'VT323',Candara;
+    
+    }
+  
+
+
+#links:hover{
+    background-color:rgb(56,216,148);
+    color: white    ;
+    
+    cursor:pointer;
+    border:1px solid white;
+    transition: 0.3s ease;
+  
+    font-weight:lighter;
+
+
+}
+
+
+
+
+/*    centers    */
+
+
+
+
+.center tr td p{
+    text-align: center;
+    color: white;
+    border-radius: 6% 6% 6% 6%;
+    font-weight: lighter;
+}
+
+
+.center tr td h1{
+    text-align: center; 
+    color: wheat;
+}
+
+
+.center tr td img{
+    width: 100%; 
+}
+
+
+
+.buildings > img{
+    border-radius:10%;
+}
+
+
+.center-write{
+    width: 30%; 
+  border-radius: 10%;
+}
+
+
+
+/*    Diets   */
+
+
+
+
+.diet1{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(Fruit.jpg); 
+        margin-top: 10%;
+        background-size:cover;
+        background-position:center;
+        border-top:1px solid black;
+        border-radius:10px;
+    }
+
+
+    .diet2{
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(Meat.jpg);
+            background-size:cover;
+            background-position:center;
+            border-top:1px solid black;
+            border-radius:10px;
+        }
+
+
+        .diet3{
+            background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(Milk.jpg);
+                background-size:cover;
+                background-position:center;
+                border-top:1px solid black;
+                border-radius:10px;
+            }
+
+
+            .diet4{
+                background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(Pulses.jpg);
+                    background-size:cover;
+                    background-position:center;
+                    border-top:1px solid black;
+                    border-radius:10px;
+                }
+
+
+
+                .diet5{
+                    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(Vegetables.jpg);
+                        background-size:cover;
+                        background-position:center;
+                        border-top:1px solid black;
+                        border-radius:10px;
+                    }
+
+
+/*................Faq..........*/
+
+
+.faq{
+    font-size: 0.8em;
+} 
+    
+    
+.faq1 .question{
+    font-size:2em;
+    color:red;
+  
+}
+
+
+.faq2 >.answer{
+    font-size:2em;
+    color:grey; 
+}
+
+
+
+.faq1{
+	margin-left:4%;
+    background-color:rgb(230,230,230);
+    color:green;
+    margin-bottom: 0%;
+}
+
+
+.faq2{
+    margin-left:4%;	
+    margin-top: 0%;
+}
+
+
+/*......Footer..........*/
+
+
+.footer{
+    width: 33.33%;
+    padding-top: 3%; 
+    padding-bottom: 1%;
+}
+
+
+.footer h1{
+    margin-left: 5%;
+    line-height: 0.2cm;
+    margin-top: 6%;
+}
+
+.footer p{
+    margin-left: 10%;    
+}
+
+
+
+.log  input{
+    text-align: left;
+}
+
+
+
+/*links*/
+
+.social ul{
+
+text-decoration: none;
+list-style: none;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+margin-top: 0%;
+}
+
+.social ul li{
+    display: inline-block;
+    padding: 1.2% 2.1%;
+    border-radius: 10px;
+    margin-top: 1%;
+}
+
+
+.social ul li a{
+    font-size: 30px;
+    color: #fff;
+}
+
+
+
+
+
+.social ul li:nth-child(1)
+{ background: #3b5998;
+}
+
+
+
+.social ul li:nth-child(2)
+{ background: #00aced;
+
+}
+
+
+
+.social ul li:nth-child(3)
+{ background: #dd4b39;
+}
+
+
+
+.social ul li:nth-child(4)
+{ background: #007bb6;
+}
+
+
+
+.social ul li:nth-child(5)
+{ background: #bc2a8d;
+}
+
+
+.social ul li a i:hover{
+  
+    animation: shake 1s infinite linear;
+}
+
+
+
+@keyframes shake{
+	0% { transform: translate(5-px,5px)
+	}
+	
+	10% { transform: translate(-5px,-5px)
+    }
+  
+}
+
+
+/*  Login box   */
+
+
+#input1 , #input2, #input3{
+    background-color: whitesmoke; 
+    height: 30px;
+     width: 100%; 
+     border-radius: 15px; 
+     border: 0.5px solid rgb(213, 212, 212);
+      outline: none;
+}
+
+
+#submit{
+    width: 70%;
+     height: 40px; 
+     color: whitesmoke; 
+     background-color: rgba(7, 211, 7, 0.891); 
+     font-size: 20px; 
+     margin-top: 2%; 
+     margin-bottom: 5%;  
+     padding-top: 2% 2% ;
+     border:none;
+     border-radius: 20px;
+     outline: none;
+}
+
+
+#submit:hover{
+
+    background-color: green;
+    transition: 0.2s;
+}
+
+
+
